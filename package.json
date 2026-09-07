@@ -10,7 +10,7 @@
   "test": "npm run build && node --test",
   "deploy": "npm run build && wrangler deploy"
 },
-  },
+,
   "cloudflare": {
     "bindings": {
       "KV": {
